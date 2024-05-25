@@ -10,17 +10,172 @@
     <meta namme="keywords" content="lbcr777, NTGC, NTGC.github.io">
     <meta name="description" content="Website created by lbcr777">
     <meta name="author" content="lbcr777">
-    <meta http-equiv="refresh" content="0">
-    <meta name="viewport" content="width=device-width, initial-scale=4.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <base href="https://github.com/mchigm/NTGC.github.io" target="_blank"> -->
+    <style>
+        * {box-sizing: border-box}
+        body {font-family: Verdana, sans-serif; margin:0}
+        .mySlides {display: none}
+        img {vertical-align: middle;}
+
+        /* Slideshow container */
+        .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+        }
+
+        /* Next & previous buttons */
+        .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        }
+
+        /* Caption text */
+        .text {
+        color: #02ffbb;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        }
+
+        .active, .dot:hover {
+        background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+        .prev, .next,.text {font-size: 11px}
+        }
+    </style>
 </head>
 <body>
-    <ul class="pagination">
-        <!-- <li><a href="#">«</a></li> -->
-        <li><a class="active"  href="home.html">1</a></li>
-        <li><a href="南门公园.htm">2</a></li>
-        <li><a href="厂房片区.htm">3</a></li>
-        <li><a href="报德广场.htm">4</a></li>
-        <li><a href="采访.htm">5</a></li>
-        <!-- <li><a href="#">»</a></li> -->
+    <h1>南投古城</h1>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="643a31ddce3bd0478b9248d9a7dc889c.jpeg" style="width:100%">
+        <div class="text"><h2>南门公园-南城门：</h2><ul><li><p>介绍：现时南头古城中保存最完整的古城门，建于明朝初年，有超过600年的历史。城墙下方和两侧都有不少风化、破损严重的地方而依然展示于游人，关上更题「岭南重镇」，显露出南投古城源远流长的历史和其古代极重要的地理价值。</p></li><li><p>优点：旁有资料牌略写南城门的历史和保育，而城墙本身可供游客近距离观察、触摸，减少了古建筑与人们的距离感，使人们更容易去了解其中的古文物和文化。</p></li></ul></div>
+        </div>
+    
+        <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="e80beaf2a92dc133b6faff9ef88a02ff.jpeg" style="width:100%">
+        <div class="text"><h2>厂房片区-创意工厂：</h2><ul><li><p>介绍：充满现代色彩，展现了古城近代以来的历史特色，如铁皮制的大型烟囱、矮层的绿皮砖房的摩登风格；五彩缤纷的鲜艳玻璃、各色的喷漆涂鸦和霓虹灯组成的后现代艺术风格。展示了南投古城蕴含文化之多元。</p></li><li><p>优点：活力及新奇的氛围可以吸引年轻人前往欣赏游玩、摄影打卡。既增加了古城之文化的厚度，又能告诉人们，展示古城的文化，可以不仅仅是枯燥和单一的。</p></li></ul></div>
+        </div>
+    
+        <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="eed297f8cf36d8efa7f6b799c347644a.jpeg" style="width:100%">
+        <div class="text"><h2>报德广场-篮球场：</h2><ul><li><p>介绍：古代建筑群活化后，约为中心地带的休息广场上建设里任何景区都罕见的篮球场，更彰显了深圳一城与深圳人民现时的开阔和活力。</p></li><li><p>优点：现实意义上，也是一个可以安置觉得古景枯燥的孩童的好地方。家庭旅游带有孩童的游客也可能选择前往游览，让孩童也能接受、接触到古文化。</p></li></ul></div>
+        </div>
+
+        <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="321af8badf32dc8145c8a000ec038193.jpeg" style="width:100%">
+        <div class="text"><h2>采访：</h2><ol><li><ul><li><p><b>Q1（本地居民）</b>: 南头古城中有一「古」字，代表了深圳及湾区悠久的历史，请问你在南头古城的游览中能体会到「古」和广府文化吗？如果有，是从哪些地方呢？</p></li><li><p><b>A（周先生）</b>: 南投古城在许多地方都能体现它厚重的文化底蕴，如门口的古城墙，还有广州府新安县衙，这和那些电视剧里的古建筑、全国各种文化遗址里的古建筑没什么不同，似乎还能幻想到兵吏们端直的样子。这些实实在在的充满历史魅力的文物就摆在眼前，在这样一座以现代科技闻名的城市，怎能说感受不到「古」意呢？不过在一些细节上、精神上的「古」，则体现不多，古城主要的街道上，许多是售卖着那些「网红」小食、产品的店铺，其他的店铺，也基本都是售卖着流行着装、西式餐厅、流行物件礼品。诚然，古城也需要吸引游客、有所盈利，在古城内复原昔日的饮食文化恐怕也不是易事，故此，这也是可以理解的。所以，游览南头古城确实能感受到它的历史，但似乎深度有所不足、如古代的非物质文化、本地的广府文化没怎么得到体现，终究是为了商业因素让步。</p></li></ul></li><li><ul><li><p><b>Q2（外地游客）</b>: 在中国，许多城市都有着「古城」，各有风骚，有历史遗迹保留得完整的、有用心复刻彰显特色的、也有改造成热闹的民俗的载体的，请问你更偏向于前往哪个类型的「古城」呢？</p></li><li><p><b>A（赵女士）</b>： 我本人比较喜欢前往国内各种古建筑、文化景点去学习、体验那些古文化。有见过一些刻意不着笔墨的景点，措施制定者的本意就是希望这些文化能脱离现实的羁绊，让人们能够真正地、有深度地去学习了解这些文化，可是，这些地方无法盈利，自然也就请不起讲解者、做不起宣传，显得十分枯燥，即使是我这种历史爱好者，也难以全览而归。我最喜欢的古城的类型就是后两者的结合，这样的古城刻意地去保留了极具当地特色的文化，即让本地人自豪之心油然而生，也让游客更愿意前来————要知道，现时的年轻游客，十分喜欢体验新奇、独特的事物，打卡便就是这么一回事，而讨厌反复的、普遍的事物，这也是前者不受欢迎的其中一个原因，毕竟真实的古建筑没有那么理想，大致上都是一样的。人为地突出它受人喜爱又确实有传承意义的部分，再加上承载一些流行的产品，使文化的传承和游客的体验都得到实现，便是各种古城营生的上佳之策。</p></li></ul></li></ol></div>
+        </div>
+    
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
 </body>
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+    showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+    showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    }
+</script>
