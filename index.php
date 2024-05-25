@@ -52,5 +52,5 @@ if (array_key_exists($page, $subpages)) {
 header('Location: home.html');
 exit;
 ?>
-<p>This should redirect automatically to the page... if not, <a href="home.html">click here</a></p>
+<h1>This should redirect automatically to the page...</h1> <p>if not, <a href="home.html">click here</a></p>
 <html></html>
